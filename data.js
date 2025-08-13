@@ -12,7 +12,7 @@ window.HOTSPOTS = [
   { x: 16.8, y: 40.0, n: 9,  title: "Sentido del trayecto",     text: "Muestra el sentido actual del trayecto" },
   { x: 88.0, y: 30.5, n: 10, title: "Cantidad de viajes 1",     text: "Cantidad de vehículos en viaje 1" },
   { x: 90.6, y: 30.5, n: 11, title: "Cantidad de viajes 2",     text: "Cantidad de vehículos en viaje 2" },
-  { x: 93.5, y: 30.5, n: 12, title: "OpcCantidad total de vehículos en ruta.",  text: "Da el recuento total de vehiculos en la ruta." },
+  { x: 93.5, y: 30.5, n: 12, title: "Cantidad total de vehículos en ruta.",  text: "Da el recuento total de vehiculos en la ruta." },
   { x: 96.0, y: 47.0, n: 13, title: "Retorno",                   text: "Señala el retorno del recorrido." }
 ];
 
