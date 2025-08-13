@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo Sinóptico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Demo Sinóptico</h1>
+    <p class="hint">
+      Pasa el cursor por los puntos azules para ver las descripciones.
+    </p>
+  </header>
+
+  <main id="board" aria-label="Imagen con puntos interactivos">
+    <!-- Cambia la ruta si tu imagen tiene otro nombre -->
+    <img id="base" src="img/Pantalla-SAE.png" alt="Imagen base" />
+    <div id="hotspots" aria-live="polite"></div>
+    <div id="coords" hidden></div>
+  </main>
+
+  <footer>
+    <details>
+      <summary>Cómo editar</summary>
+      <ol>
+        <li>Reemplaza <code>img/Pantalla-SAE.png</code> por tu imagen.</li>
+        <li>Edita <code>data.js</code> y agrega/quita objetos en <code>HOTSPOTS</code> (x,y en %).</li>
+        <li>Abre este archivo <code>index.html</code> con doble clic.</li>
+      </ol>
+    </details>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
